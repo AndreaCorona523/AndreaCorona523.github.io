@@ -20,7 +20,18 @@ export class WorkExperienceComponent {
       ]
     }
 
+    let work2 = {
+      fecha : "2022-",
+      ubicacion: "Toluca, Edo. Mex.",
+      puesto: "Mentora",
+      empresa: "Tecnolochicas",
+      logros: [
+        { descripcion: "Dar cursos a niñas de secundaria"},
+      ]
+    }
+
     this.workExperience.push(work1);  
+    this.workExperience.push(work2);  
   }
 
 }

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="title">
+        <h3>Achievements</h3>
+    </div>
+    <div class="information">
+        <ul *ngFor="let ach of achievementsList">
+            <li class="achievements">
+              <p class="ach-title">{{ ach.nombre }} ({{ ach.anio }})</p>
+              <p class="ach-description">{{ ach.descripcion }}</p>
+            </li>
+          </ul>
+
+    </div>
+  
+  
+</div>

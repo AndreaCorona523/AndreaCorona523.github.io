@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="title">
+        <h3>Languages</h3>
+    </div>
+    <div class="information">
+        <ul *ngFor="let lan of languagesList">
+            <li>
+                <p>{{ lan.nombre }}({{ lan.nivel }})</p>
+            </li>
+        
+        </ul>
+    </div>
+</div>

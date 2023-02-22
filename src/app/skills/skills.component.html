@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="title">
+      <h3>Skils & Compentences</h3>
+    </div>
+    <div class="information">
+      <ul *ngFor="let skills of skillsList">
+            <li class="skills">
+                <div class="name">
+                  <p>{{ skills.nombre }}</p>
+                </div>
+                <div class="level" [ngStyle]='{ width: skills.nivel }'>
+                  <p>{{ skills.nivel }}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
